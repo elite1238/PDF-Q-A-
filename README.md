@@ -1,5 +1,7 @@
-# PDF-Q-A-
+UPLOAD PDF AND ask questions.
+It will provide answer based on data in the pdf.
 
+steps to run the project
 1.DOWNLOAD PYTHON PACKAGES
 In terminal
 

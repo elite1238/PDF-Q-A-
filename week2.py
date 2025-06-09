@@ -19,12 +19,12 @@ import time
 logging.basicConfig(level=logging.WARNING)
 
 # MongoDB Configuration
-MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://varun:Passcode#123@cluster0.j76oos8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_URI = os.getenv("MONGO_URI", "Mongo_uri real")
 DB_NAME = "new_api"
 COLLECTION_NAME = "qa_pairs"
 
 # Groq API Key
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "your_groq_api_key"
 
 # ==================== Database Functions ====================
 @st.cache_resource
